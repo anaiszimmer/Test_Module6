@@ -4,6 +4,27 @@ author: "Anais"
 date: "1/24/2022"
 output: html_document
 ---
+
+
+
 ## Markdown Test
 
-** This is a test ** *for Markdown*
+**This is a test** *for Markdown*
+
+Here are some R code
+
+```{r}
+x<-1:10
+mean(x)
+print(x)
+
+```
+
+
+more are code
+
+```{r}
+
+y<-10:1
+plot(x,y)
+```
